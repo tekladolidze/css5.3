@@ -77,8 +77,9 @@ main{
     display: flex;
     justify-content: end;
     height: 50px;
-    width: 1336px;
+    width: 1300px;
     margin-top: 40px;
+    margin-bottom: 50px;
 }   
 
 
@@ -107,12 +108,36 @@ main{
 }
 
 
-.home_fotos{
+.house_box{
     display: flex;
-    background-color: aquamarine;
+    margin-left: 80px;
+    width: 1200px;
 }
 
-.home_card{
-    border-radius: 24px 24px 0px 0px;
-    background: url(../images/glossy_twin_villa.svg) lightgray 50% / cover no-repeat
+.house_cards{
+    display: flex;
+    gap: 42px;
+}
+
+#card_house{
+    display: flex;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 42px;
+    gap: 42px;
+}
+
+.card_style{
+    border-radius: 24px 24px 24px 24px;
+    background: #E7EEFF;
+}
+
+.foto_text{
+    gap:4px;
+    padding: 8px 12px;
+}
+
+p{
+    color: #606060; 
+    font-size: 14px;
 }
